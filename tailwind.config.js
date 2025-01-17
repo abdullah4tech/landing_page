@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       textColor: {
-        "custom-gray": "hsl(0, 0%, 41%)"
+        "custom-gray": "hsl(0, 0%, 41%)",
+        "almost-black": "hsl(0, 0%, 8%)"
+      },
+      backgroundColor: {
+        "gray-black": "hsl(0, 0%, 8%)"
       }
     },
   },
