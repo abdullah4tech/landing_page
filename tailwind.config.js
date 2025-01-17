@@ -11,7 +11,8 @@ export default {
         "almost-black": "hsl(0, 0%, 8%)"
       },
       backgroundColor: {
-        "gray-black": "hsl(0, 0%, 8%)"
+        "gray-black": "hsl(0, 0%, 8%)",
+        "primary": "hsl(0, 0%, 98%)"
       }
     },
   },
