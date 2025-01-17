@@ -20,7 +20,7 @@ const dropdown2Visible = ref(false);
 
 
 <template>
-<header class="flex py-10 text-sm text-custom-gray px-10 justify-between gap-20">
+<header class="flex items-center py-10 text-sm text-custom-gray px-10 justify-between gap-20">
     <div class="flex gap-16 relative">
       <div class="logo">
         <Logo />
@@ -97,7 +97,7 @@ const dropdown2Visible = ref(false);
     </div>
   </header>
 
-  <main class="flex items-end space-x-40 px-40">
+  <main class="flex items-center space-x-40 px-40">
     <div class="flex flex-col gap-5">
       <div class="flex flex-col items-start gap-10">
         <h1 class="text-6xl font-bold text-almost-black">Make <br> remote work</h1>
@@ -111,7 +111,7 @@ const dropdown2Visible = ref(false);
         <maker />
       </div>
     </div>
-    <div class="w-[35%]">
+    <div class="h-screen">
       <img :src="hero" alt="Hero image" />
     </div>
   </main>
